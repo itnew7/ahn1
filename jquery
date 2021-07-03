@@ -1,0 +1,33 @@
+lấy thẻ html
+
+$('tên thẻ')
+$('.tên class')
+$('#tên id')
+
+gán nội dung vào html
+append : thêm vào cuối
+prepend: thêm vào đầu
+
+lấy giá trị trong input
+$().val()
+
+ghi đè input
+$().val('giá trị ghì đè')
+
+với các thẻ không phải input
+lấy nội dung
+$().html()
+
+ghì đè nội dung
+$().html('nội dung ghì đè')
+
+sự kiện 
+$().on('tên sự kiện', function thực hiện)
+
+thay đổi attribute
+attr('attribute muốn thay đổi ','giá trị attribute mới')
+
+attr('attribute muốn xem')
+
+thay đổi style 
+.css(key:value)

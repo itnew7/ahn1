@@ -1,0 +1,69 @@
+Dom         document Object  Mode1
+biến html thành các Object
+
+bắt DOM theo tên thẻ 
+trả về tất cả các thẻ cùng tên trong phạm vi
+
+document.getElementsByTagName("tenThe")
+document là toàn bộ file
+phamvi.getElementsByTagName()
+//
+bắt DOM theo class
+
+trả về tất cả các thẻ cùng class trong phạm vi
+
+document.getElementsByClassName("tenClass")
+
+phamvi.getElementsByClassName()
+//----------------
+bắt DOM theo id
+trả về thẻ đầu tiên có id được chọn trong phạm vi
+document.getElementsById('tenID')
+phamvi.getElementsById()
+//-------------------
+bắt DOM theo tên thẻ, calss, id 
+trả về thẻ dầu tiên tìm được theo điều kiện trong phạm vi
+luon trả về kiểu Object
+
+querySelector('tenthe')
+querySelector('.class')
+querySelector('#id')
+//----------------------
+ắt DOM theo tên thẻ, calss, id 
+trả về thẻ dầu tiên tìm được theo điều kiện trong phạm vi
+luon trả về kiểu array
+
+querySelectorAll('tenthe')
+querySelectorAll('.class')
+querySelectorAll('#id')
+//--------------
+innerHTML    ghi đè nội dung bên trong thẻ
+outerHTML    xóa thẻ và ghì đè nội dung
+
+append      thêm nội dung vào cuối thẻ được chọn
+
+prepend     thêm nội dung vào đầu thẻ được chọn
+
+
+//-------------
+chỉnh css
+
+C1 : sửa thẻ style 
+append nội dung vào thẻ style
+
+c2:sửa inline style
+setAttribute('style','giá trị..')
+
+c3 sửa class
+setAttribute('class','tenclass... ')
+
+//-------------
+
+setAttribute: ghì đè nội dung vào attribute được chọn
+getAttribute : xem attribute được chọn
+getAttribute('ten attribute muốn xem')
+
+//addEvenListenner : gán sự kiện
+gần giống onclick, onchange ...
+
+thẻ được chọn.addEvenListenner('click',function)

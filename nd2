@@ -1,0 +1,6 @@
+thẻ được chọn.addEvenListenner('click',function)
+
+gán sự kiện: addEvenListenner
+
+this    trong sự kiện là thẻ nhận sự kiện
+this    trong
