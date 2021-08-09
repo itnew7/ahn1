@@ -1,0 +1,3 @@
+DB_USERNAME = yourname
+DB_PASSWORD = yourpassword
+DB_DBNAME =dbName

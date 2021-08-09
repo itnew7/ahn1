@@ -29,7 +29,8 @@ const usModel = mongoose.model('us',usSchema)
 
 module.exports = usModel
 // usModel.create({
-//   name:'admin',
-//   pas:1234,
+//   name:'test',
+//   pas:"test",
 //   role:"admin"
-// })
+// }).then((data)=> console.log(data))
+// .catch((err)=> console.log(err))

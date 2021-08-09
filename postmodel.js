@@ -11,3 +11,8 @@ const postSchema = mongoose.Schema({
 },{colelection:'post'})
 const postModel = mongoose.model("post",postSchema)
 module.exports = postModel
+postModel.create({
+  title:"123",
+  content:"123"
+}).then((data)=> console.log(data))
+.catch((err)=> console.log(err))
