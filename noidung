@@ -1,0 +1,38 @@
+tạo html nhập form
+app.get để sendFile
+
+tạo file js chạy jquery
+thêm sự kiện onclick cho button
+khi click thì lấy nội dung nhập của user xử lí mà gửi request thông qua ajax
+
+
+body-parser
+    đọc data được gửi về thông qua req.body
+
+
+res.json
+    status,
+    mess,
+    data/err
+    
+    
+    
+cookie 
+        kho luw trữ data người dùng trong trình duyệt
+        lưu trữ theo trang
+        cookie luôn được gửi kèm tromg request  từ client về server
+        cookie gửi về trong header ở dạng string
+
+cookie- parser
+        đọc được cookie gửi về từ client
+        chuyển đổi cookie gửi về thành dạng obj
+    
+
+    window.location.href = 'link'
+    hướng dẫn tạo , xem,xóa cookie trên trình duyệt
+        setCookie
+
+
+       middleWare
+        các bước trung gain trước khi cho phép thực hiện 1 bước nào đó 
+    thực hiện lưu đăng nhập, đăng xuất với cookie

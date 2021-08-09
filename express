@@ -1,0 +1,26 @@
+npm init
+
+npm install express 
+
+import express
+
+tạo app
+
+tạo cổng 3000
+
+tạo đường dẫn
+
+res.send()          phản hồi text/ <h1>html</h1>
+res.json()          phản hồi data dạng json/ js object
+res.sendFile()      phản hồi về 1 file / đường dẫn phải là tuyệt đối
+
+query           request được gửi kèm tren url
+                ?key=value
+                ?key = value& key2 = value2
+                user có thể thêm, đặt tên key
+                có thể dùng hoặc ko dùng  ko ép buộc
+                
+
+params          request được gửi kèm trên url
+                sửa đường dẫn để đặt key
+                đã đặt là  buộc phải dùng params

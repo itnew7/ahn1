@@ -1,0 +1,29 @@
+router
+
+postman
+
+restFul API
+các API phân biệt với nhau bởi method và url
+url          làm việc với model nào thì quy định cụ thẻ trên url
+
+get all         /user/
+
+
+get one         /user/:id            
+                lấy data
+                lấy giao diện
+                data gửi từ sever sẽ được cho thẳng lên giao diện
+
+
+post            /user/
+                thêm mới data vào database
+                làm  thêm 1 số chức năng khác
+                gửi ngầm data không cho giao diện
+
+put             /user/:id
+                update data
+                gửi ngầm data không cho lên giao diện
+
+delete          /user/:id
+                xoa data
+                gửi ngầm data không cho lên giao diện
